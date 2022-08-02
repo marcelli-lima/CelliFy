@@ -1,3 +1,17 @@
+:root {
+  --verde-escuro: rgb(3, 107, 82);
+  --verde-claro: rgb(47, 93, 140);
+  --roxo-escuro: rgb(65, 25, 127);
+  --verde-claro: rgb(137, 88, 163);
+  --azul-claro: rgb(0, 213, 226);
+  --azul-escuro: rgb(0, 109, 251);
+  --cinza-claro: rgb(225, 229, 235);
+  --cinza1: rgb(62, 66, 75);
+  --cinza2: rgb(40, 42, 47);
+  --cinza3: rgb(30, 31, 36);
+  --cinza4: rgb(26, 27, 28);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +20,6 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: var(--cinza4);
+  color: white;
 }
