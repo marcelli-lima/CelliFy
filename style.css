@@ -23,3 +23,84 @@ body {
   background-color: var(--cinza4);
   color: white;
 }
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+header .logo-title {
+  display: flex;
+  align-items: center;
+}
+
+header .title {
+  font-size: 2.5rem;
+}
+
+header img {
+  height: 100px;
+}
+
+header .player-container {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.genre-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.genre-cards section {
+  background-color: var(--cinza3);
+  margin: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.genre-cards section:hover {
+  background-color: var(--cinza2);
+}
+
+.genre-cards img {
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.genre-cards p {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.playlist-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracks-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
