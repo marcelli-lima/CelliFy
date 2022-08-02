@@ -63,6 +63,11 @@ main {
   flex-direction: column;
 }
 
+.step h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
 .genre-cards {
   display: flex;
   flex-wrap: wrap;
@@ -98,9 +103,27 @@ main {
   align-items: center;
 }
 
+.text-card {
+  background-color: var(--cinza2);
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.text-card:hover {
+  background-color: var(--cinza1)
+}
+
 .tracks-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.item-selected {
+  background-color: var(--cinza-claro) !important;
+  color: var(--cinza3) !important;
 }
