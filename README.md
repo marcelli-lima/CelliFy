@@ -21,4 +21,4 @@
 
  <img align="center" alt="Celi-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JavaScript
 
-![chrome_NP688231uk](https://user-images.githubusercontent.com/87941765/183513382-5649c31b-34df-469f-89e8-8a80b218975b.gif)
+![chrome_59lOGfXXRh](https://user-images.githubusercontent.com/87941765/183513902-b3fcd724-3787-4773-ad57-0d54223333f1.gif)
